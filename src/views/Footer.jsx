@@ -2,7 +2,9 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div>Footer</div>
+    <footer className='container-fluid' id="footer">
+      <h1>footer</h1>
+    </footer>
   )
 }
 
