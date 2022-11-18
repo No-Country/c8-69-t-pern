@@ -69,7 +69,7 @@ const NavBar = () => {
           <button type="button" className="btn btn-outline-success ">
             Registarse
           </button>
-          <div className="faBars-icon" id="menu-icon">
+          <div className="faBars-icon" id="menu-icon" >
             <FontAwesomeIcon icon={faBars} />
           </div>
         </div>
