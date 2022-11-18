@@ -1,12 +1,16 @@
+import { Route, HashRouter, Routes } from 'react-router-dom'
 import './App.css'
 import Home from './views/Home'
-import {Route, Routes} from 'react-router-dom'
 
 function App() {
 
   return (
     <div className="App">
-      <Home />
+      <HashRouter>
+        <Routes>
+          <Route path='/' element={<Home />} />
+        </Routes>
+      </HashRouter>
     </div>
   )
 }
